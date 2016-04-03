@@ -1,5 +1,4 @@
 # NepDict
-======
 NepDict is a English-Nepali Dictionary used in command line. This script is created using Python. It could be used in order to convert an unknown english word into nepali meaning for better understanding. We also have online based English-Nepali Dictionary website "http://www.nepdict.com"
 
 ##Installing
