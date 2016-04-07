@@ -11,12 +11,14 @@ NepDict is a English-Nepali Dictionary which could be used in order to know the 
 ##Installing
 
 ###Linux
-*Ubuntu/Debian:
-     Download the deb file use the following command in Terminal
-                  $ cd ~/Downloads
-                  $ sudo dpkg -i nepdict.deb
-                  $ alias nepdict="nepdict.py"
+* Ubuntu/Debian:
+```bash
+$ cd ~/Downloads
+$ sudo dpkg -i nepdict.deb
+$ alias nepdict="nepdict.py"
 ```
+                  
+
 ## Version 
 * Version 0.1
 
