@@ -9,10 +9,13 @@ NepDict is a English-Nepali Dictionary which could be used in order to know the 
 * We have CLI based Offline Dictionary too.
 
 ##Installing
-```
-$ command
- Output
-$ command
+
+###Linux
+*Ubuntu/Debian:
+     Download the deb file use the following command in Terminal
+                  $ cd ~/Downloads
+                  $ sudo dpkg -i nepdict.deb
+                  $ alias nepdict="nepdict.py"
 ```
 ## Version 
 * Version 0.1
