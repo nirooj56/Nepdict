@@ -6,7 +6,7 @@
 NepDict is a English-Nepali Dictionary which could be used in order to know the Nepali meaning of an English Word for better understanding.
 
 * We have Online Dictionary for regular users at "www.nepdict.com"
-* We have Command based Offline Dictionary too.
+* We have CLI based Offline Dictionary too.
 
 ##Installing
 ```
@@ -26,6 +26,7 @@ $ command
 
 * Homepage: www.nepdict.com
 * E-Mail: info@nepdict.com
+* Facebook: <a href="http://www.facebook.com/nepdict">Nepdict</a>
 * // Developer //
 * Name: Nirooj Bista
 * Website: http://www.nirojbista.com.np
