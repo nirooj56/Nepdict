@@ -1,6 +1,6 @@
 # NepDict
 <p align="center">
-<img src="https://github.com/nirooj56/Nepdict/blob/master/img/icon.png">
+<img src="https://github.com/nirooj56/Nepdict/blob/master/nepdict.png">
 </p>
 
 NepDict is a English-Nepali Dictionary which could be used in order to know the Nepali meaning of an English Word for better understanding.
@@ -13,14 +13,14 @@ NepDict is a English-Nepali Dictionary which could be used in order to know the 
 ###Linux
 * Ubuntu/Debian:
 ```bash
-$ cd ~/Downloads
-$ sudo dpkg -i nepdict.deb
-$ alias nepdict="nepdict.py"
+$ sudo add-apt-repository ppa:nirooj56/nepdict
+$ sudo apt-get update
+$ sudo apt-get install nepdict
 ```
                   
 
 ## Version 
-* Version 0.1
+* Version 1.0
 
 ##md5sum
 * 531e6cf28997deb92219c8448010bdd2  nepdict.py
@@ -36,7 +36,4 @@ $ alias nepdict="nepdict.py"
 * Name: Nirooj Bista
 * Website: http://www.nirojbista.com.np
 * E-mail: info@nirojbista.com.np
-* Facebook:- https://www.facebook.com/niroj56
-* Twitter:- https://www.twitter.com/nirooj56
-* Google Plus:- https://plus.google.com/+bistanirooj
-* Linkedin:- https://www.linkedin.com/in/nirooj56
+* <a href="https://www.facebook.com/niroj56"> Facebook </a>   -   <a href="https://www.twitter.com/nirooj56"> Twitter </a>    -   <a href="https://plus.google.com/+bistanirooj"> Google+ </a>   -   <a href="https://www.linkedin.com/in/nirooj56"> Linkedin </a>
