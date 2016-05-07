@@ -1,3 +1,18 @@
+#!/usr/bin/python3
+# -*- coding: utf-8 -*-
+class color:
+   PURPLE = '\033[95m'
+   CYAN = '\033[96m'
+   DARKCYAN = '\033[36m'
+   BLUE = '\033[94m'
+   GREEN = '\033[92m'
+   YELLOW = '\033[93m'
+   RED = '\033[91m'
+   BOLD = '\033[1m'
+   UNDERLINE = '\033[4m'
+   END = '\033[0m'
+
+nepdict = dict()
 nepdict["abandon"] = "(v) छोड्नु, त्याग्नु"
 nepdict["able"] = "(v) सक्नु"
 nepdict["about"] = "(prep) को बारेमा"
@@ -232,7 +247,7 @@ nepdict["communism"] = "(n) साम्यबाद​ "
 nepdict["community"] = "(n) समुदाय​, समाज​ "
 nepdict["compare"] = "(v) दाँज्नु, तुलना गर्नु"
 nepdict["comparison"] = "(n) तलनाु, दजाई "
-nepdict["competition"] "(n) प्र्तियोगिता, प्र्तिस्पर्दा, होड​"
+nepdict["competition"] = "(n) प्र्तियोगिता, प्र्तिस्पर्दा, होड ​"
 nepdict["complaint"] = "(n) उजूर​, उजूरी"
 nepdict["complete"] = "(adj) सम्पूर्ण, पूर्ण, पुरा"
 nepdict["completed"] = "(adj) सम्प्न्न​"
@@ -560,7 +575,7 @@ nepdict["here"] = "(adv) यहाँ "
 nepdict["hereafter"] = "(adv) उप्रान्त​"
 nepdict["highway"] = "(n) सडक (ठुलो)"
 nepdict["himalaya"] = "(n) हिमाल​"
-nepdict["hindun, adjहिन्दु"
+nepdict["hindu"] = "(n, adj) हिन्दु"
 nepdict["hint"] = "(n) सङ्केत​"
 nepdict["hire"] = "(n) भाडा"
 nepdict["historical"] = "(n) ऐतिहासिक​"
@@ -613,7 +628,7 @@ nepdict["information"] = "(n) सुचना "
 nepdict["informed"] = "(adj) निहित​, अन्तर्वती, स्वाभाबिक​"
 nepdict["injection"] = "(n) सुइ"
 nepdict["ink"] = "(n) मसी "
-nepdict["inopportuneadj बेमौका, असामयिक​"
+nepdict["inopportune"] = "(adj) बेमौका, असामयिक​"
 nepdict["inside"] = "(prep) भित्र​"
 nepdict["inspect"] = "(v) परिदर्शन गर्नु, निरिक्षण गर्नु, जाँच गर्नु"
 nepdict["inspection"] = "(n) परिदर्शन, निरिक्षण, जाँच, सर्बेक्षण"
@@ -738,7 +753,7 @@ nepdict["meet"] = "(v) भेट्नु"
 nepdict["meeting"] = "(n) बैठक​, जमघाट​, गोष्ठी, भेट​"
 nepdict["member"] = "(n) सदस्य​"
 nepdict["membership"] = "(n) सदस्यता"
-nepdict["memorize"] = "(v) याद गर्नु, सम्झनु
+nepdict["memorize"] = "(v) याद गर्नु, सम्झनु"
 nepdict["mentality"] = "(n) स्वभाब​, मनोबृत्ति, मानसिक शक्त्ति"
 nepdict["method"] = "(n) उपाय​, ढंङ्ग​, तरिका, प्र्णाली"
 nepdict["middle"] = "(n) माझ​, बीच​"
@@ -920,7 +935,7 @@ nepdict["public"] = "(n) सामान्यजन​, प्र्ज्ञ�
 nepdict["public health"] = "(n) जनव्वास्थ्य​"
 nepdict["public service"] = "(n) लोकसेवा"
 nepdict["publicity"] = "(n) प्र्चार​, प्र्सार​"
-nepdict["published"] = "(adj) प्र्काशित​ 
+nepdict["published"] = "(adj) प्र्काशित​ "
 nepdict["pull"] = "(v) तान्नु, उखेल्नु"
 nepdict["punishment"] = "(n) सजाय, दण्ड​"
 nepdict["pupil"] = "(n) छात्र्"
@@ -974,7 +989,7 @@ nepdict["remind"] = "(v) सम्झाउनु"
 nepdict["remove"] = "(v) हटाउनु "
 nepdict["rent"] = "(v) महशुल​, भाडा"
 nepdict["repair"] = "(v) मरमत गर्नु"
-nepdict["replace"] = "(v) बदली गर्नु 
+nepdict["replace"] = "(v) बदली गर्नु "
 nepdict["replacement"] = "(n) बदली"
 nepdict["reply"] = "(n) जवाफ​, उत्तर​"
 nepdict["representative"] = "(n) प्र्तिनिधी"
@@ -1007,7 +1022,7 @@ nepdict["roof"] = "(n) छानु, छाना"
 nepdict["room"] = "(n) कोठा "
 nepdict["routine"] = "(adj) निश्रित​, नियमित​"
 nepdict["routine"] = "(n) कार्यक्र्म​, रुटिन​, दिनचर्या, नित्यकर्मको ब्यब्स्था"
-nepdict["rudiment"] = "(n) मूलसुत्र​, सुत्रपात​, आरम्भ​, मूल तत्व
+nepdict["rudiment"] = "(n) मूलसुत्र​, सुत्रपात​, आरम्भ​, मूल तत्व"
 nepdict["rule"] = "(n) नियम​"
 nepdict["run"] = "(v) कुदनु, दगुर्नु, बग्नु, भाग्नु / **administer** (v) संचालन गर्नु, चलाउनु"
 nepdict["rupee"] = "(n) रुपिया"
@@ -1188,7 +1203,7 @@ nepdict["those"] = "(adj) ति "
 nepdict["thought"] = "(n) विचार​"
 nepdict["thousand"] = "(n) हजार"
 nepdict["throat"] = "(n) घाँटी "
-nepdict["throughprepमर्फत​, द्वारा"
+nepdict["through"] = "(prepमर्फत​, द्वारा"
 nepdict["thursday"] = "(n) बिहिबार​"
 nepdict["thus"] = "(adv) तसर्थ​, त्यसर्थ​"
 nepdict["ticket"] = "(n) टिकट"
@@ -1323,3 +1338,22 @@ nepdict["six"] = "छ​​"
 nepdict["seven"] = "सात​"
 nepdict["eight"] = "आठ"
 nepdict["nine"] = "नौ"
+
+print ("\n")
+print (color.DARKCYAN + "The information provided here doesn't claim to be complete, accurate or reliable. However, We have tried our best for correctness and completeness with our resources and capability. You will be at your own risk and liable for any direct, indirect or consequential damage cause by the use of this content." + color.END + color.RED + " If you found any error or problem with the meaning or couldnot find words looking for, please kindly email the details to 'info@nepdict.com'." + color.END)
+print ("\n")
+while True:
+	search = input("What are you looking for : ")
+	search = search.lower()
+	looking = nepdict.get(search)
+	try:
+		print("The meaning of " + "'" + color.BLUE + search + color.END + "'" + " is: " + "'" + color.PURPLE + looking + color.END + "'")
+	except TypeError:
+		print("There are no results for: " + "'" + color.RED + search + color.END + "'" + ", but we are adding new words daily.")
+	print (color.BOLD + color.CYAN + "\n")
+	cont = input("Do you want to continue? (y/n) : " + color.END)
+	if cont == "y":
+		continue
+	else:
+		print(color.BOLD + "Thank you for using Nepdict." + color.END)
+		break

@@ -1,5 +1,5 @@
 [Desktop Entry]
-Version=1.0
+Version=1.1
 Name=Nepdict
 Comment=English-Nepali Dictionary
 Exec=gnome-terminal -e "bash -c /usr/local/bin/nepdict.py;bash"
