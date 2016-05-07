@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-class color:				#setting color class to make the output more colorful and interactive.
+class color:
    PURPLE = '\033[95m'
    CYAN = '\033[96m'
    DARKCYAN = '\033[36m'
@@ -12,7 +12,7 @@ class color:				#setting color class to make the output more colorful and intera
    UNDERLINE = '\033[4m'
    END = '\033[0m'
 
-nepdict = dict()			#words with their respective meanings set into dictionary function. In this case English to Nepali.
+nepdict = dict()
 nepdict["abandon"] = "(v) छोड्नु, त्याग्नु"
 nepdict["able"] = "(v) सक्नु"
 nepdict["about"] = "(prep) को बारेमा"
@@ -1339,18 +1339,21 @@ nepdict["seven"] = "सात​"
 nepdict["eight"] = "आठ"
 nepdict["nine"] = "नौ"
 
-print ("\n")										#for a new empty line. (so the output wont be conjusted)
-print (color.DARKCYAN + "The information provided here doesn't claim to be complete, accurate or reliable. However, We have tried our best for correctness and completeness with our resources and capability. You will be at your own risk and liable for any direct, indirect or consequential damage cause by the use of this content." + color.END + color.RED + " If you found any error or problem with the meaning or couldnot find words looking for, please kindly email the details to 'info@nepdict.com'." + color.END)					#just a warning
-print ("\n")										#again new empty line
-search = raw_input("What are you looking for : ")   #getting word from the user that they want to know about and storing them onto search variable.
-search = search.lower()                             #converting the word into lowercase in case CAPSLOCK is on. 
-looking = nepdict.get(search)						#this is where it gets intresting. The searched variable is getting searched. Lucky fella.
-print ("\n")										#again a new empty line.
-while True:											#if searched word found
+print ("\n")
+print (color.DARKCYAN + "The information provided here doesn't claim to be complete, accurate or reliable. However, We have tried our best for correctness and completeness with our resources and capability. You will be at your own risk and liable for any direct, indirect or consequential damage cause by the use of this content." + color.END + color.RED + " If you found any error or problem with the meaning or couldnot find words looking for, please kindly email the details to 'info@nepdict.com'." + color.END)
+print ("\n")
+while True:
+	search = input("What are you looking for : ")
+	search = search.lower()
+	looking = nepdict.get(search)
 	try:
 		print("The meaning of " + "'" + color.BLUE + search + color.END + "'" + " is: " + "'" + color.PURPLE + looking + color.END + "'")
-		break										#print output and break the code
-	except TypeError:								#if not found
+	except TypeError:
 		print("There are no results for: " + "'" + color.RED + search + color.END + "'" + ", but we are adding new words daily.")
-		break										#print output then break the code
-								#Tada and we are done. Its so damn simple right. I know. ;-) Now Go and Have Fun.
+	print (color.BOLD + color.CYAN + "\n")
+	cont = input("Do you want to continue? (y/n) : " + color.END)
+	if cont == "y":
+		continue
+	else:
+		print(color.BOLD + "Thank you for using Nepdict." + color.END)
+		break
