@@ -11,20 +11,22 @@ NepDict is a English-Nepali Dictionary which could be used in order to know the 
 ##Installing
 
 ###Linux
-* Ubuntu/Debian:
+
+* <b>Ubuntu/Debian</b>:
+  You can Download the deb file <a href="http://www.nepdict.com/download/nepdict.deb" target="_blank"> here</a>. Or use PPA as below.
 ```bash
 $ sudo add-apt-repository ppa:nirooj56/nepdict
 $ sudo apt-get update
 $ sudo apt-get install nepdict
 ```
-                  
+* <b>For RPM based Distros like Fedora/OpenSUSE/Cent OS</b>: Download the rpm file <a href="http://www.nepdict.com/download/nepdict.rpm" target="_blank">here</a>.
 
 ## Version 
-* Version 1.0 </br>
- -> First release with possible Words and their Meanings.
-* Version 1.1 </br>
- -> Updated Words and their Meanings. </br>
- -> Various Improvements.
+* <b>Version 1.0</b> </br>
+ -> <i>First release with possible Words and their Meanings.</i>
+* <b>Version 1.1</b> </br>
+ -> <i>Updated Words and their Meanings. </br>
+ -> Various Improvements.</i>
 
 ##md5sum
 * 531e6cf28997deb92219c8448010bdd2  nepdict.py
@@ -33,11 +35,11 @@ $ sudo apt-get install nepdict
 
 ## Contact
 
-* Homepage: www.nepdict.com
-* E-Mail: info@nepdict.com
-* Facebook: <a href="http://www.facebook.com/nepdict">Nepdict</a>
+* <b>Homepage</b>: www.nepdict.com
+* <b>E-Mail</b>: info@nepdict.com
+* <b>Facebook</b>: <a href="http://www.facebook.com/nepdict">Nepdict</a>
 * // Developer //
-* Name: Nirooj Bista
-* Website: http://www.nirojbista.com.np
-* E-mail: info@nirojbista.com.np
-* <a href="https://www.facebook.com/niroj56"> Facebook </a>   -   <a href="https://www.twitter.com/nirooj56"> Twitter </a>    -   <a href="https://plus.google.com/+bistanirooj"> Google+ </a>   -   <a href="https://www.linkedin.com/in/nirooj56"> Linkedin </a>
+* <b>Name</b>: Nirooj Bista
+* <b>Website</b>: http://www.nirojbista.com.np
+* <b>E-mail</b>: info@nirojbista.com.np
+* <b><a href="https://www.facebook.com/niroj56"> Facebook </a>   -   <a href="https://www.twitter.com/nirooj56"> Twitter </a>    -   <a href="https://plus.google.com/+bistanirooj"> Google+ </a>   -   <a href="https://www.linkedin.com/in/nirooj56"> Linkedin </a></b>
