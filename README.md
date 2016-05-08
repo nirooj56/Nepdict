@@ -20,7 +20,11 @@ $ sudo apt-get install nepdict
                   
 
 ## Version 
-* Version 1.0
+* Version 1.0 </br>
+ -> First release with possible Words and their Meanings.
+* Version 1.1 </br>
+ -> Updated Words and their Meanings. </br>
+ -> Various Improvements.
 
 ##md5sum
 * 531e6cf28997deb92219c8448010bdd2  nepdict.py
