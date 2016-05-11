@@ -1,0 +1,12 @@
+nepdict (1.1) xenial; urgency=low
+
+  * Second release with updated words and their meanings.
+  * Various Improvements.
+
+ -- Niroj Bista <nirooj56@outlook.com>  Wed, 11 May 2016 21:13:00 +0545
+
+nepdict (1.0-3) wily; urgency=low
+
+  * First release with possible words and their meanings. 
+
+ -- Niroj Bista <nirooj56@outlook.com>  Thu, 8 Apr 2016 07:50:00 +0545
