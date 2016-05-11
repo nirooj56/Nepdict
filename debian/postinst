@@ -1,3 +1,13 @@
-#!/bin/bash
-chmod +x /usr/local/bin/nepdict.py
-chmod +x /usr/share/applications/Nepdict.desktop
+#!/bin/sh
+
+echo "Installation complete"
+echo "
+ +-+-+-+-+-+-+-+-+-+-+-+
+ |N E P D I C T . c o m|
+ +-+-+-+-+-+-+-+-+-+-+-+
+"
+echo ""
+echo "Thank you for Installing. Keep visiting www.nepdict.com."
+sleep 2
+echo ""
+

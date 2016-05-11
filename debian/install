@@ -1,3 +1,1 @@
-usr/local/bin/nepdict.py usr/local/bin/
-usr/share/applications/Nepdict.desktop usr/share/applications/
-usr/share/pixmaps/nepdict.png usr/share/pixmaps/
+nepdict/* /usr/
