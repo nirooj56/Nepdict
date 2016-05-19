@@ -4,6 +4,3 @@
 	dh $@
 
 override_dh_usrlocal:
-
-override_dh_gencontrol:
-	dh_gencontrol -- $(SUBSTVARS)
