@@ -2,7 +2,7 @@ Source: nepdict
 Section: python
 Priority: optional
 Maintainer: Niroj Bista, <info@nirojbista.com.np>
-Build-Depends: debhelper (>= 7)
+Build-Depends: debhelper (>= 7), libfile-fcntllock-perl
 Standards-Version: 1.1
 Homepage: http://www.nepdict.com
 
