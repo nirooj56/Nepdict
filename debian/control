@@ -2,7 +2,7 @@ Source: nepdict
 Section: python
 Priority: optional
 Maintainer: Niroj Bista, <info@nirojbista.com.np>
-Build-Depends: debhelper (>= 7), libfile-fcntllock-perl
+Build-Depends: debhelper (>= 9), dh-autoreconf, dpkg-dev (>= 1.14.8), libecore-dev (>= 1.8.0), libedje-dev (>= 1.8.0), libeet-bin, libeet-dev (>= 1.8.0), libefreet-dev (>= 1.8.0), libeina-dev (>= 1.8.0), libeio-dev (>= 1.8.0), libemotion-dev (>= 1.8.0), libethumb-dev (>= 1.8.0), libevas-dev (>= 1.8.0), pkg-config,  libfile-fcntllock-perl
 Standards-Version: 1.1
 Homepage: http://www.nepdict.com
 
@@ -10,4 +10,4 @@ Package: nepdict
 Architecture: all
 Depends: python (>=2.7)
 Description: English-Nepali Dictionary
- Offline English-Nepali Dictionary for getting the Nepali meaning of an English word. We have Online Dictionary for regular users at 	"www.nepdict.com".
+ Nepdict is an online English-Nepali Dictionary and Unicode Conversion application for use in day-to-day life.
