@@ -38,6 +38,7 @@ $ sudo apt-get install nepdict
 * <b>Homepage</b>: www.nepdict.com
 * <b>E-Mail</b>: info@nepdict.com
 * <b>Facebook</b>: <a href="http://www.facebook.com/nepdict">Nepdict</a>
+* <b>Twitter</b>: <a href="http://www.twitter.com/nepdict">Nepdict</a>
 * // Developer //
 * <b>Name</b>: Nirooj Bista
 * <b>Website</b>: http://www.nirojbista.com.np
