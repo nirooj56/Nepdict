@@ -13,12 +13,12 @@ NepDict is a English-Nepali Dictionary which could be used in order to know the 
 ###Linux
 
 * <b>Ubuntu/Debian</b>:
-  You can Download the deb file <a href="http://www.nepdict.com/down/" target="_blank"> here</a>. ~~Or use PPA as below~~.
+  You can Download the deb file <a href="http://www.nepdict.com/down/" target="_blank"> here</a>. ~~Or use PPA as below~~. (Better to Download .deb file and install)
 ```bash
-$ ~~sudo add-apt-repository ppa:nirooj56/nepdict~~
-$ ~~sudo apt-get update~~
-$ ~~sudo apt-get install nepdict~~
-```
+$ sudo add-apt-repository ppa:nirooj56/nepdict
+$ sudo apt-get update
+$ sudo apt-get install nepdict
+``` 
 * <b>For RPM based Distros like Fedora/OpenSUSE/Cent OS</b>: Download the rpm file <a href="http://www.nepdict.com/down/" target="_blank">here</a>.
 
 ## Version 
