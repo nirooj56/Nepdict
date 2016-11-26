@@ -1,5 +1,13 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
+import signal
+
+def handler(signum, frame):
+	print ("\n")
+	print(color.BOLD + "Times UP! See you next time.")
+	print("Thank you for using Nepdict." + color.END)
+	exit(0)
+
 class color:
    PURPLE = '\033[95m'
    CYAN = '\033[96m'
@@ -16,7 +24,7 @@ nepdict = dict()
 nepdict["abandon"] = "(v) छोड्नु, त्याग्नु"
 nepdict["able"] = "(v) सक्नु"
 nepdict["about"] = "(prep) को बारेमा"
-nepdict["above"] = "(prep) माथि, अति / (adj) उपरोत्त​"
+nepdict["above"] = "(prep) माथि, अति / (adj) उपरोत्त"
 nepdict["absolutely"] = "(adj) एकदम, बिल्कुल​, पुर्ण रुपले"
 nepdict["accept"] = "(v) अपनाउनु, स्विकार गर्नु​"
 nepdict["accomplish"] = "(v) ​​पुर्ण गर्नु, पुरा गर्नु"
@@ -1338,6 +1346,11 @@ nepdict["six"] = "छ​​"
 nepdict["seven"] = "सात​"
 nepdict["eight"] = "आठ"
 nepdict["nine"] = "नौ"
+
+#Install signal handler
+signal.signal(signal.SIGALRM, handler)
+#Set alarm for 1 minutes
+signal.alarm(60)
 
 print ("\n")
 print (color.DARKCYAN + "The information provided here doesn't claim to be complete, accurate or reliable. However, We have tried our best for correctness and completeness with our resources and capability. You will be at your own risk and liable for any direct, indirect or consequential damage cause by the use of this content." + color.END + color.RED + " If you found any error or problem with the meaning or couldnot find words looking for, please kindly email the details to 'info@nepdict.com'." + color.END)
