@@ -2,6 +2,17 @@
 <p align="center">
 <img src="https://github.com/nirooj56/Nepdict/blob/master/logo.png" title="Nepdict">
 </p>
+<h1 align="center">
+  <br>
+  <img height="256" width="256" src="https://github.com/nirooj56/Nepdict/blob/master/logo.png" alt="Nepdict">
+  <br>
+  Nepdict Desktop
+  <br>
+   <a href="https://travis-ci.org/nirooj56/nepdict"><img src="https://travis-ci.org/nirooj56/Nepdict.svg?branch=master" alt="Travis"></a>
+  <a href="https://github.com/nirooj56/nepdict/releases"><img src="https://img.shields.io/github/release/nirooj56/nepdict.svg" alt="Release"></a>
+  <a href="https://github.com/nirooj56/nepdict/blob/master/Licence"><img src="https://img.shields.io/github/license/nirooj56/nepdict.svg" alt="Release"></a>
+  <br>
+</h1>
 
 NepDict is a English-Nepali Dictionary which could be used in order to know the Nepali meaning of an English Word for better understanding.
 
