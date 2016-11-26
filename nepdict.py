@@ -1,5 +1,13 @@
-#!/usr/bin/env python
+#!/usr/bin/python3
 # -*- coding: utf-8 -*-
+import signal
+
+def handler(signum, frame):
+	print ("\n")
+	print(color.BOLD + "Times UP! See you next time.")
+	print("Thank you for using Nepdict." + color.END)
+	exit(0)
+
 class color:
    PURPLE = '\033[95m'
    CYAN = '\033[96m'
@@ -122,7 +130,6 @@ nepdict["bamboo shoot"] = "(n) तामा"
 nepdict["ban"] = "(n) मनाही, मनाई, प्र्तिबन्ध​ "
 nepdict["banana"] = "(n) कराे"
 nepdict["barren"] = "(adj) बाँझो"
-nepdict["bark"] = "(n) भुक्नु"
 nepdict["base, basis"] = "(n) आधार, मुल​, जग "
 nepdict["bask"] = "(v) ताप्नु, सेक्नु"
 nepdict["bathe"] = "(v) नुहाउनु"
@@ -1339,6 +1346,11 @@ nepdict["six"] = "छ​​"
 nepdict["seven"] = "सात​"
 nepdict["eight"] = "आठ"
 nepdict["nine"] = "नौ"
+
+#Install signal handler
+signal.signal(signal.SIGALRM, handler)
+#Set alarm for 1 minutes
+signal.alarm(60)
 
 print ("\n")
 print (color.DARKCYAN + "The information provided here doesn't claim to be complete, accurate or reliable. However, We have tried our best for correctness and completeness with our resources and capability. You will be at your own risk and liable for any direct, indirect or consequential damage cause by the use of this content." + color.END + color.RED + " If you found any error or problem with the meaning or couldnot find words looking for, please kindly email the details to 'info@nepdict.com'." + color.END)
