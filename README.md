@@ -39,12 +39,16 @@ Note: Till the date, we have support for Linux based OS (DEBIAN & REDHAT based d
 
 ## Contact
 
-* **Homepage**: www.nepdict.com
+* **Homepage**: www.nepdict.com/
 * **E-Mail**: info@nepdict.com
-* **Facebook**: <a href="http://www.facebook.com/nepdict">Nepdict</a>
-* **Twitter**: <a href="http://www.twitter.com/nepdict">Nepdict</a>
-                              * // Developer Info // *
+* **Facebook**: [Nepdict](http://www.facebook.com/nepdict)
+* **Twitter**: [Nepdict](http://www.twitter.com/nepdict)
+  * // Developer Info //
 * **Name**: Nirooj Bista
 * **Website**: http://www.nirojbista.com.np
 * **E-mail**: info@nirojbista.com.np
 * **[Facebook](https://www.facebook.com/niroj56) - [Twitter](https://www.twitter.com/nirooj56) - [Google+](https://plus.google.com/+bistanirooj) - [Linkedin](https://www.linkedin.com/in/nirooj56)**
+
+## License
+
+MIT. Copyright (c) [Nirooj Bista](http://nirojbista.com.np)
