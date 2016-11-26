@@ -26,11 +26,12 @@ Note: Till the date, we have support for Linux based OS (DEBIAN & REDHAT based d
 
 ## Version 
 * **Version 1.0**
- -> _First release with possible Words and their Meanings._
+ * _First release with possible Words and their Meanings._
 </br>
 * **Version 1.1**
- -> _Updated Words and their Meanings. 
- -> Various Improvements._
+ * _Updated Words and their Meanings._
+ * _Various Improvements._
+ * _Brand new Logo._
 
 ##md5sum
 * 531e6cf28997deb92219c8448010bdd2  -> nepdict.py
