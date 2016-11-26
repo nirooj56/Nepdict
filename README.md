@@ -51,4 +51,4 @@ Note: Till the date, we have support for Linux based OS (DEBIAN & REDHAT based d
 
 ## License
 
-MIT. Copyright (c) [Nirooj Bista](http://nirojbista.com.np)
+MIT. Copyright (c) [Nirooj Bista](http://nirojbista.com.np).
