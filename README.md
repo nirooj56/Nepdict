@@ -1,7 +1,3 @@
-<h1 align="center"> Nepdict</h1>
-<p align="center">
-<img src="https://github.com/nirooj56/Nepdict/blob/master/logo.png" title="Nepdict">
-</p>
 <h1 align="center">
   <br>
   <img height="256" width="256" src="https://github.com/nirooj56/Nepdict/blob/master/logo.png" alt="Nepdict">
