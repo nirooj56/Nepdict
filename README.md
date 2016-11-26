@@ -10,6 +10,8 @@ NepDict is a English-Nepali Dictionary which could be used in order to know the 
 
 ##Screenshot
 
+[![Join the chat at https://gitter.im/Nepdict/Lobby](https://badges.gitter.im/Nepdict/Lobby.svg)](https://gitter.im/Nepdict/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 <p align="center">
 <img src="https://github.com/nirooj56/Nepdict/blob/master/nepdict.png" title="Screenshot">
 </p>
