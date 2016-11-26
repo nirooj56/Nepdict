@@ -32,13 +32,17 @@ Note: Till the date, we have support for Linux based OS (DEBIAN & REDHAT based d
 **Nepdict Desktop** is under very active development as of now. You can try out the current (stable) development version by cloning or forking the Git repo.
 
 ## Version 
-* **Version 1.0**
- * _First release with possible Words and their Meanings._
-</br>
+* **Version 1.2**
+ * _Added a timer function which will stop the program upon reaching 1 minute (60 Sec)._
+ * _Various Other Improvements._
+<br>
 * **Version 1.1**
  * _Updated Words and their Meanings._
  * _Various Improvements._
  * _Brand new Logo._
+ <br>
+* **Version 1.0**
+ * _First release with possible Words and their Meanings._
 
 ##md5sum
 * 531e6cf28997deb92219c8448010bdd2  -> nepdict.py
