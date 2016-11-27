@@ -2,12 +2,14 @@
 # -*- coding: utf-8 -*-
 import signal
 
+# when the set time is up, it display a output and exits the programs
 def handler(signum, frame):
 	print ("\n")
 	print(color.BOLD + "Times UP! See you next time.")
 	print("Thank you for using Nepdict." + color.END)
 	exit(0)
-
+	
+# adds color to the output
 class color:
    PURPLE = '\033[95m'
    CYAN = '\033[96m'
@@ -19,7 +21,8 @@ class color:
    BOLD = '\033[1m'
    UNDERLINE = '\033[4m'
    END = '\033[0m'
-
+   
+#Word & Meaning Databases
 nepdict = dict()
 nepdict["abandon"] = "(v) छोड्नु, त्याग्नु"
 nepdict["able"] = "(v) सक्नु"
@@ -1352,6 +1355,7 @@ signal.signal(signal.SIGALRM, handler)
 #Set alarm for 1 minutes
 signal.alarm(60)
 
+#General Information to the end user
 print ("\n")
 print (color.DARKCYAN + "The information provided here doesn't claim to be complete, accurate or reliable. However, We have tried our best for correctness and completeness with our resources and capability. You will be at your own risk and liable for any direct, indirect or consequential damage cause by the use of this content." + color.END + color.RED + " If you found any error or problem with the meaning or couldnot find words looking for, please kindly email the details to 'info@nepdict.com'." + color.END)
 print ("\n")

@@ -1,3 +1,10 @@
+nepdict (1.2) xenial; urgency=low
+
+	* Added a timer function which will stop the program upon reaching 1 minute (60 Sec).
+	* Various Other Improvements.
+
+ -- Niroj Bista <nirooj56@outlook.com>  Sat, 26 Nov 2016 17:25:00 +0545
+
 nepdict (1.1) xenial; urgency=low
 
   * Second release with updated words and their meanings.
