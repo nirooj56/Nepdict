@@ -34,12 +34,13 @@ Note: Till the date, we have support for Linux based OS (DEBIAN & REDHAT based d
 ## Version 
 * **Version 1.2**
  * _Added a timer function which will stop the program upon reaching 1 minute (60 Sec)._
+ * _Brand New Logo._
  * _Various Other Improvements._
 <br>
 * **Version 1.1**
  * _Updated Words and their Meanings._
+ * _Logo Updated._
  * _Various Improvements._
- * _Brand new Logo._
  <br>
 * **Version 1.0**
  * _First release with possible Words and their Meanings._
