@@ -51,7 +51,8 @@ def fillUpDict(nepdict):
             # print(line)
             m = prg.match(line)
             # print(line)
-            s = m.group(2).strip() + m.group(3).strip()
+            # group2 is the noun/verb/adj, group3 is the meaning
+            s = m.group(2).strip() , m.group(3).strip()
             nepdict[m.group(1).strip()]= s
 
 
@@ -65,12 +66,15 @@ def runScript():
         search = input("What are you looking for : ")
         search = search.strip().lower()
         looking = nepdict.get(search)
-        try:
+
+        if looking is not None:
             print(
-                "The meaning of " + "'" + color.BLUE + search + color.END + "'" + " is: " + "'" + color.PURPLE + looking + color.END + "'")
-        except TypeError:
+                "Meaning of" + color.BLUE + search + color.END + " is: "
+                + color.PURPLE + "(" + looking[0] + ")" + looking[1] + color.END)
+        else:
             print(
                 "There are no results for: " + "'" + color.RED + search + color.END + "'" + ", but we are adding new words daily.")
+
         print(color.BOLD + color.CYAN + "\n")
         cont = input("Do you want to continue? (y/n) : " + color.END)
         if cont == "y":
