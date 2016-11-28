@@ -46,11 +46,11 @@ def fillUpDict(nepdict):
     s = '(.*\s),\s(.*)\s,(.*)'
     prg = re.compile(s)
 
-    with open('../../../database/nirmal.csv') as fp:
+    with open('../../../database/data.csv') as fp:
         for line in fp:
             # print(line)
             m = prg.match(line)
-            # print(line)
+            # print(m)
             # group2 is the noun/verb/adj, group3 is the meaning
             s = m.group(2).strip() , m.group(3).strip()
             nepdict[m.group(1).strip()]= s
