@@ -46,7 +46,7 @@ def fillUpDict(nepdict):
     s = '(.*\s),\s(.*)\s,(.*)'
     prg = re.compile(s)
 
-    with open('../../../database/nirmal.csv') as fp:
+    with open('../../../database/data.csv') as fp:
         for line in fp:
             # print(line)
             m = prg.match(line)
