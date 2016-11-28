@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="aa18b230-a3e8-49f1-af64-4b730c64e041" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/nirmal.csv" afterPath="$PROJECT_DIR$/database/nirmal.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nepdict/local/bin/nepdict.py" afterPath="$PROJECT_DIR$/nepdict/local/bin/nepdict.py" />
     </list>
     <ignored path="Nepdict.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -55,8 +53,8 @@
       <file leaf-file-name="nirmal.csv" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/database/nirmal.csv">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.30226701">
-              <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+            <state vertical-scroll-proportion="0.4534005">
+              <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -86,6 +84,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/nepdict/local/bin/nepdict.py" />
+        <option value="$PROJECT_DIR$/database/nirmal.csv" />
       </list>
     </option>
   </component>
@@ -605,8 +604,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/database/nirmal.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30226701">
-          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+        <state vertical-scroll-proportion="0.4534005">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
           <folding />
         </state>
       </provider>
