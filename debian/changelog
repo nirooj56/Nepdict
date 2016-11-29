@@ -1,3 +1,10 @@
+nepdict (1.3) xenial; urgency=low
+
+	* Added a Database(csv) for words and meaning for easier updates.
+
+ -- Niroj Bista <nirooj56@outlook.com>  Sat, 29 Nov 2016 11:27:00 +0545
+
+
 nepdict (1.2) xenial; urgency=low
 
 	* Added a timer function which will stop the program upon reaching 1 minute (60 Sec).
