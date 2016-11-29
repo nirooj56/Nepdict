@@ -12,8 +12,8 @@
 
 NepDict is a English-Nepali Dictionary which could be used in order to know the Nepali meaning of an English Word for better understanding.
 
-* We have Online Dictionary at "www.nepdict.com" for Regular Users.
-* We have CLI(Terminal) based Offline Dictionary for Desktop Users.
+* We have Online Dictionary for regular users at "www.nepdict.com"
+* We have CLI based Offline Dictionary.
 
 ##Screenshot
 
@@ -32,15 +32,17 @@ Note: Till the date, we have support for Linux based OS (DEBIAN & REDHAT based d
 **Nepdict Desktop** is under very active development as of now. You can try out the current (stable) development version by cloning or forking the Git repo.
 
 ## Version 
+* **Version 1.3**
+ * _Added a Database(csv) for words and meaning for easier future updates._
+<br>
 * **Version 1.2**
  * _Added a timer function which will stop the program upon reaching 1 minute (60 Sec)._
- * _Brand New Logo._
  * _Various Other Improvements._
 <br>
 * **Version 1.1**
  * _Updated Words and their Meanings._
- * _Logo Updated._
  * _Various Improvements._
+ * _Brand new Logo._
  <br>
 * **Version 1.0**
  * _First release with possible Words and their Meanings._
@@ -60,7 +62,7 @@ Note: Till the date, we have support for Linux based OS (DEBIAN & REDHAT based d
 * **Name**: Nirooj Bista
 * **Website**: http://www.nirojbista.com.np
 * **E-mail**: info@nirojbista.com.np
-* **[Facebook](https://www.facebook.com/nirooj56) - [Twitter](https://www.twitter.com/nirooj56) - [Google+](https://plus.google.com/+bistanirooj) - [Linkedin](https://www.linkedin.com/in/nirooj56)**
+* **[Facebook](https://www.facebook.com/niroj56) - [Twitter](https://www.twitter.com/nirooj56) - [Google+](https://plus.google.com/+bistanirooj) - [Linkedin](https://www.linkedin.com/in/nirooj56)**
 
 ## License
 
