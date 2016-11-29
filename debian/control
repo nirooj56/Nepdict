@@ -3,7 +3,7 @@ Section: python
 Priority: optional
 Maintainer: Niroj Bista, <info@nirojbista.com.np>
 Build-Depends: debhelper (>= 9), dh-autoreconf, dpkg-dev (>= 1.14.8), libecore-dev (>= 1.8.0), libedje-dev (>= 1.8.0), libeet-bin, libeet-dev (>= 1.8.0), libefreet-dev (>= 1.8.0), libeina-dev (>= 1.8.0), libeio-dev (>= 1.8.0), libemotion-dev (>= 1.8.0), libethumb-dev (>= 1.8.0), libevas-dev (>= 1.8.0), pkg-config,  libfile-fcntllock-perl
-Standards-Version: 1.2
+Standards-Version: 1.3
 Homepage: http://www.nepdict.com
 
 Package: nepdict
