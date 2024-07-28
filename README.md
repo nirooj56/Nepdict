@@ -27,11 +27,11 @@ NepDict is a English-Nepali Dictionary which could be used in order to know the 
 
 Download the latest version of Nepdict Desktop from [the official website](https://nepdict.com/download/) or the [GitHub releases](https://github.com/nirooj56/nepdict/releases) page.
 
-Note: Till the date, we have support for Linux based OS (DEBIAN & REDHAT based distros) only. More support will be available soon.
+Note: Till the date, we have support for Linux based OS (DEBIAN & REDHAT based distros) only. No more development is planned at all. 
 
 ## Contribution
 
-**Nepdict Desktop** is under very active development as of now. You can try out the current (stable) development version by cloning or forking the Git repo.
+**Nepdict Desktop** is NOT under active development as of now. You can try out the current (stable) development version by cloning or forking the Git repo.
 
 ## Version 
 * **Version 1.3**
@@ -58,7 +58,6 @@ Note: Till the date, we have support for Linux based OS (DEBIAN & REDHAT based d
 * **Name**: Nirooj Bista
 * **Website**: http://www.nirojbista.com.np
 * **E-mail**: info@nirojbista.com.np
-* **[Facebook](https://www.facebook.com/niroj56) - [Twitter](https://www.twitter.com/nirooj56) - [Linkedin](https://www.linkedin.com/in/nirooj56)**
 
 ## License
 
